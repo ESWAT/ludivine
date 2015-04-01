@@ -14,7 +14,7 @@ class Answer
     end
 
     words.shuffle!
-    sentence = words.pop(rand(7..9)).join(" ").concat(".")
+    sentence = words.pop(8).join(" ").concat(".")
     sentenceCount = sentenceCount - 1
 
     if sentenceCount > 0
